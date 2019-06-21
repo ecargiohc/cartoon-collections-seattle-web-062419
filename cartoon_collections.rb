@@ -4,13 +4,6 @@ def roll_call_dwarves(dwarves)
   end
 end
 
-# def reverse_each_word(sentence)
-#   words = sentence.split(" ")
-#   words.collect do |word| 
-#     word.reverse 
-#   end.join(" ")
-# end
-
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect do |planeteer| 
     planeteer.capitalize + "!"
